@@ -31,18 +31,12 @@ public class Rettangolo {
 			} else {
 				centroD += " ";
 			}
-		}
-		for (int b = 0; b < base; b++) {
 			baseD += "0";
-
 		}
 
 		for (int i = 0; i < altezza; i++) {
-			if (i == 0 ) {
+			if (i == 0 || i == altezza - 1) {
 				System.out.println(baseD);
-			} else if (i == altezza - 1) {
-				System.out.println(baseD);
-
 			} else {
 				System.out.println(centroD);
 
